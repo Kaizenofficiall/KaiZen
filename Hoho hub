@@ -389,7 +389,7 @@ function hoho:Window(hub, the_game_name, main_color)
 	Minimize.Position = UDim2.new(0.923261642, 0, 0.125, 0)
 	Minimize.Size = UDim2.new(0, 20, 0, 20)
 	Minimize.ZIndex = 15
-	Minimize.Image = "rbxassetid://3926305904"
+	Minimize.Image = "rbxassetid://6863506969."
 	Minimize.ImageColor3 = Color3.fromRGB(0, 0, 0)
 	
 	Minimize.MouseButton1Click:Connect(function()
