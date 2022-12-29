@@ -3543,7 +3543,7 @@ function Library:label(options)
 	local text = labelContainer:object("TextLabel", {
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(10, 5),
-		Size = UDim2.new(0.5, -10, 0, 22),
+		Size = UDim2.new(0.5, -35, 0, 22),
 		Text = options.Text,
 		TextSize = 22,
 		Theme = {TextColor3 = "StrongText"},
@@ -3551,7 +3551,7 @@ function Library:label(options)
 	})
 
 	local description = labelContainer:object("TextLabel", {
-		BackgroundTransparency = 0.5,
+		BackgroundTransparency = 1,
 		Position = UDim2.new(0, 10, 1, -5),
 		Size = UDim2.new(0.5, -10, 1, -22),
 		Text = options.Description,
