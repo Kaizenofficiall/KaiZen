@@ -699,7 +699,7 @@ end)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.Code,
-		Text = "Version 4.3.8 | Press Delete For Hide Gui [DEL]",
+		Text = "Zen Hub | Blox Fruit [UPDATE 18]",
 		Theme = {TextColor3 = "Tertiary"},
 		TextSize = 14,
 		TextXAlignment = Enum.TextXAlignment.Left
@@ -730,7 +730,7 @@ end)
 		BackgroundTransparency = 1,
 		Position = UDim2.new(0, 5, 0.5, 0),
 		Size = UDim2.new(0, 15, 0, 15),
-		Image = "http://www.roblox.com/asset/?id=8569322835",
+		Image = "http://www.roblox.com/asset/?id=11354741327",
 		Theme = {ImageColor3 = "StrongText"}
 	})
 
@@ -3542,8 +3542,8 @@ function Library:label(options)
 
 	local text = labelContainer:object("TextLabel", {
 		BackgroundTransparency = 1,
-		Position = UDim2.fromOffset(10, 5),
-		Size = UDim2.new(0.5, -35, 0, 22),
+		Position = UDim2.fromOffset(20, 5),
+		Size = UDim2.new(0.5, -5, 0, 22),
 		Text = options.Text,
 		TextSize = 22,
 		Theme = {TextColor3 = "StrongText"},
